@@ -1,0 +1,4 @@
+/opt/dev_src/cmake-3.17.5/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/rh/devtoolset-7/root/usr/bin/gmake -DCMAKE_C_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/cc -DCMAKE_CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /tmp/tmp.ktkYGrKeR4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.ktkYGrKeR4/cmake-build-debug
