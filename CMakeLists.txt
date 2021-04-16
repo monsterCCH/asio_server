@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.16)
 #程序名称
 project(asio_server)
 #设置C++标准
@@ -20,7 +20,7 @@ set(CMAKE_CXX_FLAGS "-O2 -g -Wall")
 set(THIRD_PARTY_LIB_BASE "/usr/local")
 #设置第三方库
 set(THIRD_PARTY_LIBS
-        ${THIRD_PARTY_LIB_BASE}/boost1.74.0)
+        ${THIRD_PARTY_LIB_BASE}/boost_1_75_0)
 
 #设置第三库头文件路径和库路径
 set(THIRD_PARTY_LIBS_INC ${THIRD_PARTY_LIBS})
