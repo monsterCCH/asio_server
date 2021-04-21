@@ -44,4 +44,5 @@ link_libraries(${LINK_OBJ})
 #设置子模块目录
 add_subdirectory(module/asio_sync_client)
 add_subdirectory(module/asio_sync_server)
-
+add_subdirectory(module/asio_async_server)
+add_subdirectory(module/asio_async_client)
